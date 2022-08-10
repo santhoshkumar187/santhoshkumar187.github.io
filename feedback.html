@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>feedback</title>
+    <style>
+        body{
+            background-image: url('web images/background9.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        p{
+            color: bisque;
+            font-family: Verdana;
+        }
+        h2{
+            color: blanchedalmond;
+            font-family: fantasy;
+        }
+        .form1{
+            text-align: center;
+            padding:10px;
+            padding-left: 20px;
+            padding-right: 30px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 1%;
+            border: 8px aquamarine; 
+            border-style: outset;
+        }
+        h2{
+            text-align: center;
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 5px lightgrey;
+            border-style: groove;
+        }
+
+    </style>
+</head>
+<body>
+    <p style="font-size: 20px; font-family: Verdana; text-align: center; color: whitesmoke;">So glad you clicked over. You are welcome here</p>
+    <h2 style="font-family: cursive;">Give your valiable feedback here</h2>
+    <center style="text-align: center;">
+        <button type="button" onclick="location.href='index.html'">Home</button>
+        <button type="button" onclick="location.href='aboutus.html'">AboutUs</button>
+        <button type="button" onclick="location.href='product.html'">Items</button>
+        <button type="button" onclick="location.href='order.html'">Order</button>
+        <button type="button" onclick="location.href='contactus.html'">Contact</button>
+    </center>
+    <div class="form1">
+        <form>
+            <p>Name: <input type="text" name="name" ></p><br>
+            <p> Email: <input type="email" name="Email "></p><br>
+            <P> What we want to improve: <br><textarea name="feedback" cols="60" rows="10" placeholder="comments"></textarea></P>
+            <p> Did you like our site <br>
+                <input type="radio" name="." value="." checked>yes <br>
+                <input type="radio"name="." value="." id=".">no<br>
+                <br>
+                <p>Rate our site🤗</p>
+                <select name="Rate our site:">
+                    <option selected>Amazing</option>
+                    <option >4</option>
+                    <option >3</option>
+                    <option >2</option>
+                    <option >1</option>
+                </select>
+            </p>
+            <p><input type="button" name="submit" value="Submit"></p>
+        </form>
+    </div>
+    <!-- <iframe src="aboutus.html" title="contact us" width="500" height="400"> -->
+    </iframe>
+</body>
+</html>

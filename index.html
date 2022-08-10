@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title> Freshbites</title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <style>
+            #intro {
+                text-decoration: none;
+                font-size:medium;
+                font-family:Tahoma;
+                color:white;
+                background-color: black;
+                padding: 10px;
+                margin-left: 92%;
+            }
+            #intro:hover{
+                background-color: dimgrey;
+                color: black;
+            }
+            #backto{
+                text-decoration: none;
+                font-size: medium;
+                color: bisque;
+                background-color:black;
+                padding: 10px;
+                font-family:Tahoma;
+                margin-left: 1%;
+                margin-top: 90%;
+                
+            }
+            #backto:hover{
+                background-color: dimgrey;
+                color: black;
+            }
+            #order2{
+                text-decoration:none;
+                font-family: Verdana;
+                color:black;
+                font-size:medium;
+                background-color:darkgray;
+                padding: 0.5% 0.5%;
+            }
+            #order2:hover{
+                    background-color:red;
+                    color:white;
+            }
+            body{
+                background-color:cornsilk
+            }
+            .indexheadingin{
+                color: black;
+                background-color: bisque;
+                border: 5px sienna;
+                border-style: outset;
+                border-bottom-style: outset;
+                padding: 15px;
+                text-align: center;
+           }
+           #ord{
+               text-align: center;
+               background-color:sienna;
+               border: 3px black;
+               border-style: outset;
+               border-bottom-style: outset;
+               color: bisque;
+           } 
+           #ord:hover{
+               background-color: bisque;
+               color: black;
+           }
+           .checked {
+                color: orange;
+           }    
+           #footname
+           {
+               font-family:Tahoma;
+               color: rgb(104, 37, 37);
+              
+           }
+           #wigh
+           {
+                color:maroon;  
+           }
+        </style>
+        <!-- <script>
+             window.addEventListener("load",start,false)
+        function start()
+        {
+            document.getElementById("img1").addEventListener("mouseover",over,false)
+            document.getElementById("img1").addEventListener("mouseout",out,false)
+        }
+        function over()
+        {
+            document.getElementById("img1").setAttribute("src","web images/micture1.jpg")
+        }
+        function out()
+        {
+            document.getElementById("img1").setAttribute("src","web images/micture.jpg")
+        }
+    </script> -->
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" >
+            <div class="container-fluid">
+              <a class="navbar-brand"  href="intro.html"> <img src="web images/logo.png" alt="logo" width="10%" height="10%" class="navbar-toggler-icon"></a>
+              <a class="navbar-brand" href="intro.html">Freshbites </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-right" id="collapsibleNavbar">
+                <ul class="navbar-nav" >
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item"> 
+                    <a class="nav-link" href="aboutus.html">AboutUs</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="product.html">Items</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link" href="order.html">Order</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact</a>
+                  </li>
+                </ul>
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="login.html">Login</a>
+                    <a class="nav-link" href="register.html">SignIn</a>
+                </div>
+
+              </div>
+            </div>
+        </nav>
+
+        <br>
+        <br>
+        <br>
+        <img src="web images/logo.png" alt="logo" width="120px" height="125px" align = "left">
+        <img src="web images/logo.png" alt="logo" width="120px" height="125px" align = "right">
+
+        <div class="indexheadingin">
+        <center>
+            <h1 id = "topup" style="text-align: center;">Freshbites</h1>
+            <h2 style="text-align: center;font-family: serif;">Tamil traditional Snacks</h2>
+        </center>
+        </div>
+        <hr>
+        <marquee><p style="font-family:Tahoma; font-size: 15px;" id="marquee"> Shout Out📢📢: Buy more than 25kg in our website <strong>get a mass discount %%</strong></p></marquee>
+        <div class="container">
+            <center>
+                <a href="order.html" class="btn btn-danger" data-bs-toggle="top"  title="Snacks items" >Click For Bulk Order</a></p>
+            </center>
+        </div>
+        <div class="container">
+            <div class="card-group">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <!-- <img src="items/micture.jpg " class="card-img-top img-thumbnail  img-responsive" alt="Micture">
+                            <div class="collapse"></div> -->
+                            <img  data-bs-toggle="collapse" data-bs-target="#demo1" class="card-img-top img-thumbnail  img-responsive" id="img1" src="items/micture.jpg" alt="Card image">
+                            <div id="demo1" class="collapse" style="color: black;">
+                                <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">Micture</h5>
+                                <pre style="float: left;">Rating :  </pre>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <br>
+                                <br>
+                                <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                <p class="card-text"> 
+                                   <center id = wigh>
+                                    Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                   </center>
+                                </p>
+                                </div>
+                            </div> 
+                            <hr><p id="footname" style="text-align: center;">Micture</p>   
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <!-- <img src="items/bavkground8.jpg" class="card-img-top img-thumbnail img-responsive" alt="..."> -->
+                            <img  data-bs-toggle="collapse" data-bs-target="#demo2" class="card-img-top img-thumbnail  img-responsive" src="items/bavkground8.jpg" alt="Card image">
+                            <div id="demo2" class="collapse" style="color: black;">
+                                <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">Ulaku Murruku</h5>
+                                <pre style="float: left; " class="container">Rating :  </pre>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <br>
+                                <br>
+                                <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                <p class="card-text">
+                                    <center id = wigh>
+                                        Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                    </center>
+                                </p>
+                                </div>
+                            </div>   
+                            <hr><p id="footname" style="text-align: center;">Ulaku Murruku</p> 
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <!-- <img src="items/punndumuruku.jpg" class="card-img-top img-thumbnail img-responsive" alt="..."> -->
+                            <img  data-bs-toggle="collapse" data-bs-target="#demo3" class="card-img-top img-thumbnail  img-responsive" src="items/punndumuruku.jpg" alt="Card image">
+                            <div id="demo3" class="collapse" style="color: black;">
+                                <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">Garlic Murruku</h5>
+                                <pre style="float: left;">Rating :  </pre>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <br>
+                                    <br>
+                                <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                <p class="card-text">
+                                    <center id = wigh>
+                                        Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                     </center>
+                                </p>
+                                </div>
+                            </div> 
+                            <hr><p id="footname" style="text-align: center;">Garlicmuruku</p>   
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="card">
+                            <!-- <img src="items/kaimurruku1.jpg" class="card-img-top img-thumbnail img-responsive" alt="..."> -->
+                            <img  data-bs-toggle="collapse" data-bs-target="#demo4" class="card-img-top img-thumbnail  img-responsive" src="items/kaimurruku1.jpg" alt="Card image">
+                            <div id="demo4" class="collapse" style="color: black;">
+                                <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;">Kai Murruku</h5>
+                                <pre style="float: left;">Rating :  </pre>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <br>
+                                <br>
+                                <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                <p class="card-text">
+                                    <center id = wigh>
+                                        Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                    </center>
+                                </p>
+                                </div>
+                            </div>
+                            <hr><p id="footname" style="text-align: center;">KaiMurruku</p>    
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+                    <br><br><hr><br><br>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <img  data-bs-toggle="collapse" data-bs-target="#demoo5" class="card-img-top img-thumbnail  img-responsive" src="items/nipet.jpg" alt="Card image">
+                                <div id="demoo5" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">Nipet</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                                <hr><p id="footname" style="text-align: center;">Nipet</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <!-- <img src="items/nipet.jpg" class="card-img-top img-thumbnail img-responsive" alt="..."> -->
+                                <img  data-bs-toggle="collapse" data-bs-target="#demo5" class="card-img-top img-thumbnail  img-responsive" src="items/kaimurruku1.jpg" alt="Card image">
+                                <div id="demo5" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">Ribbon-Pakoda</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                       
+                                    </div>
+                                </div>
+                                <hr><p id="footname" style="text-align: center;">Ribbon-Pakoda</p>    
+                            </div>    
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <img  data-bs-toggle="collapse" data-bs-target="#demo6" class="card-img-top img-thumbnail  img-responsive" src="items/karathatuvadai.jpg" alt="Card image">
+                                <div id="demo6" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">karathatuvadai</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                       
+                                    </div>
+                                </div>  
+                                <hr><p id="footname" style="text-align: center;">karathatuvadai</p>  
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <img  data-bs-toggle="collapse" data-bs-target="#demo7" class="card-img-top img-thumbnail  img-responsive" src="items/masala-kappalandi.jpg" alt="Card image">
+                                <div id="demo7" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">masala-kadali</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                        
+                                    </div>
+                                </div> 
+                                <hr><p id="footname" style="text-align: center;">masala-kadali</p>   
+                            </div>
+                        </div>
+                    </div>
+                    <br><hr><br>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <img  data-bs-toggle="collapse" data-bs-target="#demo8" class="card-img-top img-thumbnail  img-responsive" src="items/karapori.jpg" alt="Card image">
+                                <div id="demo8" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">Karapori</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                        
+                                    </div>
+                                </div>   
+                                <hr><p id="footname" style="text-align: center;">Karapori</p> 
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <img  data-bs-toggle="collapse" data-bs-target="#demo9" class="card-img-top img-thumbnail  img-responsive" src="items/ringmurruku1.jpg" alt="Card image">
+                                <div id="demo9" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">Ringmurruku</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                        
+                                    </div>
+                                </div> 
+                                <hr><p id="footname" style="text-align: center;">Ringmurruku</p>   
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <img  data-bs-toggle="collapse" data-bs-target="#demo10" class="card-img-top img-thumbnail  img-responsive" src="items/omapodi.jpg" alt="Card image">
+                                <div id="demo10" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">Ompadi</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                        
+                                    </div>
+                                </div>  
+                                <hr><p id="footname" style="text-align: center;">Ompadi</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="card">
+                                <img  data-bs-toggle="collapse" data-bs-target="#demo11" class="card-img-top img-thumbnail  img-responsive" src="items/karasevu.jpg" alt="Card image">
+                                <div id="demo11" class="collapse" style="color: black;">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="text-align: center;">Karasev</h5>
+                                        <pre style="float: left;">Rating :  </pre>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <br>
+                                        <br>
+                                        <center><a href="#" class="btn btn-danger">Buynow</a></center>
+                                        <p class="card-text">
+                                            <center id = wigh>
+                                                Weight(<span style="color: cornflowerblue;">500g</span>)=&#x20b9;80
+                                            </center>
+                                        </p>
+                                        
+                                    </div>
+                                </div> 
+                                <hr><p id="footname" style="text-align: center;">Karasev</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <h5 style="font-family: cursive;"> <marquee>There are more then 25+ varities of Murruku available...If you are like to Order clike Order icon bellow </marquee> </h5>
+        <center><p style="font-family: Verdana;"> Clike here to Order:<a id="order2" href="order.html">Buynow</a></p></center>
+        <!-- <marquee behavior="" direction="right">--------------------------------------------------------------------------------------------</marquee> -->
+        <br>
+        <br>
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-2">
+                    
+                </div>
+                <div class="col-md-4">
+                    <p><a id="backto" href="#topup">BacktoTop👆</a></p>
+                </div>
+                <div class="col-md-4">
+                    <p><a id="intro" href="intro.html">Intropage</a></p>
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+        </div>
+        <br><br>
+        
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #1c2331"
+            >
+      <!-- Section: Social media -->
+      <section
+               class="d-flex justify-content-between p-4"
+               style="background-color: #6351ce"
+               >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+  
+        <!-- Right -->
+        <div>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+              <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Company name</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-white">MDBootstrap</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">MDWordPress</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">BrandFlow</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Bootstrap Angular</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >MDBootstrap.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  
+  </div>
+  <!-- End of .container -->
+        <!-- <footer style="background-color:rgb(172, 76, 44)">
+            <pre style="font-family: Verdana;">
+                Contact Us:
+                Address : 91/22 T.V.K Road Ammapet Salem
+                Email  : freshbites@gmail.com
+                Phone number: 3456789098
+                Pin code: 636003
+                Give your feed back: <button type="button" onclick="location.href='feedback.html'" >feedback</button>
+            </pre>
+        </footer> -->
+        
+    </body>
+</html>    

@@ -1,0 +1,15 @@
+
+
+.indexheading{
+
+    background-color: bisque;
+    text-align: center;
+    font-family:Verdana; 
+    color: black;
+    image position: 10% 10%;
+    padding: 2px;   
+    border: 5px sienna;
+    border-style: outset;
+    border-bottom-style:outset;
+    
+}
